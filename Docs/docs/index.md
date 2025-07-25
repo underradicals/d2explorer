@@ -9,7 +9,22 @@ lastUpdated: true
 
 ## Introduction
 
-{{ $frontmatter.description }} The pages found in this documentation site provided by [vitepress](https://vitepress.dev/) cover setup, tools, and patterns used in the development of not only the code but also the project. Hello, my name is Joseph. I have more than a decade of experience building software with a Bachelor's of Science in Computer Science, and a Master's of Science in Information Technology and this what I do...this is all I do, because this what I love. This system is comprised of `11` projects: Each with it's corresponding Backend and Frontend project.
+Hello, my name is Joseph. I have more than a decade of experience building software with a Bachelor of Science in Computer Science, and a Master of Science in Information Technology working across several different disciplines:
+
+### What Languages Do I Speak
+
+- Front-End: `React`, `Typescript`
+- Backend: `C#`, `Python`
+- Databases: `SQLite`, `Postgres`, a little `GraphQL` and a little `MSSQL Server`, `SSIS`, `SSAS`, and `SSRS`
+- Data Wrangling: `Python`, `Prefect`, `dbt`, `DuckDB`, (looking into) `MinIO`
+- Systems Language: `C++`, a little `C`
+- Other Tools: `Power BI`, `Excel`
+
+### What is D2
+
+{{ $frontmatter.description }} The pages found in this documentation site provided by [vitepress](https://vitepress.dev/) cover setup, tools, patterns, and white papers used in the development of not only the code but also the project.
+
+This system is comprised of `11` projects: Each with its corresponding Backend and Frontend projects.
 
 ### Projects
 
@@ -37,7 +52,7 @@ lastUpdated: true
 
 ### Why So Ambitious
 
-Any one of these projects I believe would suffice as a adequate showcase of a developers skills, but in todays market, I believe you need to go above and beyond to counted as `cracked`, whatever that means. I done some of these things at one point of another, but never have I done them all in one project, then culminating the totality of a system. There will addendum's along the way I am sure, that is just the nature of the beast. I know I will need a load balancer or two, an api-gateways and etc. But I think of them as system details, and do not tell any particular part of the story.
+Anyone of these projects I believe would suffice as an adequate showcase of a developer’s skills, but in today’s market, I believe you need to go above and beyond to be seen. I have done some of these things at one point of another, but never have I done them all in one project, then culminating the totality of a system. There will be addendums along the way, that is just the nature of the beast.
 
 ### Enough Chit Chat
 

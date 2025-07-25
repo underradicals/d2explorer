@@ -1,7 +1,8 @@
-import { defineConfig } from 'vitepress'
+
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: "D2 Data",
+  title: "Underradicals",
   description: "D2 Documentation",
   lastUpdated: true,
   themeConfig: {
@@ -16,23 +17,43 @@ export default defineConfig({
           { text: 'Download Resume', link: '/resume.pdf', target: 'blank' }
         ]
       },
-      { text: 'Docs', link: '/docs/index' }
+      {
+        text: 'Blog', items: [
+          { text: 'Home', link: 'blog/index' },
+          { text: 'Computer Science', items: [] },
+          { text: 'Information Technology', items: [] },
+          { text: 'Javascript', items: [] },
+          { text: 'C# and .NET', items: [] },
+          { text: 'Python', items: [] },
+          { text: 'Data Pipelines', items: [] },
+          { text: 'Working with Databases', items: [] },
+        ]
+      },
+      {
+        text: 'Docs', items: [
+          { text: 'Introduction', link: 'docs/index' },
+          { text: 'Getting Started', link: 'docs/setup/getting-started' }
+        ]
+      }
     ],
 
     sidebar: {
       '/docs/': [
-        { text: 'D2 Data Intro', link: '/docs/index' },
-        { text: 'Getting Started', link: '/docs/getting-started' },
         {
-          text: 'Data Pipeline', items: [
-            { text: 'Introduction', link: '/docs/dp/index' }
-          ]
-        },
-        {
-          text: 'Data Explorer', items: [
-            { text: 'Introduction', link: '/docs/de/index' }
+          text: 'Bibliography', items: [
+            { text: 'Who am I', link: '/docs/index' },
           ]
         }
+      ],
+      '/docs/setup/': [
+        {
+          text: 'Setup', items: [
+            { text: 'Setting Up Vitepress', link: '/docs/setup/getting-started' }
+          ]
+        }
+      ],
+      '/blog/': [
+        { text: 'Introduction', link: 'blog/index' }
       ]
     },
 

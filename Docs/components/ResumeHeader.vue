@@ -2,8 +2,6 @@
 import { ref, defineProps } from 'vue';
 
 defineProps(["email", "phone"]);
-
-// const phone = ref("(903)-519-9940")
 </script>
 
 <template>

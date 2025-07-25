@@ -6,6 +6,7 @@ description: The totality of my hard work, blood, sweat, and tears reduced to 1+
 
 <script setup>
   import ResumeHeader from '../components/ResumeHeader.vue';
+  import SpaceBetween from '../components/SpaceBetween.vue';
 </script>
 
 <ResumeHeader email="underradicals@gmail.com" phone="9035199940">
@@ -27,17 +28,8 @@ description: The totality of my hard work, blood, sweat, and tears reduced to 1+
 
 ---
 
-**Master of Science in Information Technology**
-
-> _Expected_: August 2025
-
-> **University of Arkansas Grantham**
-
-**Bachelor of Science in Computer Science**
-
-> _Commencement_: November 2023
-
-> **University of Arkansas Grantham**
+<SpaceBetween left="Master of Science in Information Technology"  right="Expected: August 2025"/>
+<SpaceBetween left="Bachelor of Science in Computer Science"  right="Commencement: November 2023"/>
 
 ### Experience
 
